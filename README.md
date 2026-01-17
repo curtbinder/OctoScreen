@@ -85,6 +85,7 @@ For example, to install on a new RaspberryPi with OctoPi:
 ```sh
 wget https://github.com/Z-Bolt/OctoScreen/releases/download/v2.7.4/octoscreen_2.7.4_armhf.deb
 sudo dpkg -i octoscreen_2.7.4_armhf.deb
+sudo systemctl set-default graphical
 ```
 
 Or to update an existing version of OctoScreen:
